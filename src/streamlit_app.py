@@ -1,14 +1,16 @@
 import streamlit as st
-from langchain.llms import LlamaCpp
 
-st.title("Mental Health Companion Bot")
-st.write("Talk to the bot about your mental health.")
+st.set_page_config(page_title="Mental Health Bot", layout="centered")
 
-# Initialize LLaMA model (adjust model path if needed)
-llm = LlamaCpp(model_path="models/your-model.bin")  # replace with your model
+st.title("💚 Mental Health Companion Bot")
 
-user_input = st.text_input("You: ")
+st.write(
+    "Hello! I am your Mental Health Companion. "
+    "I can provide advice, answer FAQs, and share resources to support your mental well-being."
+)
+
+user_input = st.text_input("Type your message:")
 
 if user_input:
-    response = llm(user_input)
-    st.text_area("Bot:", value=response, height=200)
+    # Dummy response for now
+    st.text_area("Bot:", f"You said: {user_input}\n\nI am still learning to respond intelligently.")
