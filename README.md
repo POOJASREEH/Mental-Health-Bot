@@ -5,23 +5,37 @@ colorFrom: purple
 colorTo: blue
 sdk: gradio
 sdk_version: 4.0.0
-app_file: mental_health_app.py
+app_file: app.py
 pinned: true
 ---
 
-# Mental Health Support Assistant
+# 🧠 Mental Health Support Assistant
 
-An AI-powered mental health companion that provides supportive listening and evidence-based information using BioMistral Medical AI.
+An AI-powered mental health companion that provides supportive listening and evidence-based information using BioMistral Medical AI and retrieval-augmented generation (RAG).
 
-## How to Use
-1. Type your mental health question or share how you're feeling
-2. Click "Send" or press Enter  
-3. Receive compassionate, evidence-based responses
-4. Use quick topic buttons for common mental health concerns
+![Mental Health Assistant](https://img.shields.io/badge/Version-1.0.0-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)
 
-## Examples to Try
-- "What are symptoms of depression?"
-- "How to manage anxiety?"
-- "What is therapy?"
-- "Benefits of exercise for mental health"
-- "How to improve sleep quality?"
+## 🌟 Features
+
+- **Compassionate AI Conversations**: Evidence-based mental health information
+- **Emergency Resources**: Quick access to crisis helplines and support
+- **Quick Topic Buttons**: Instant access to common mental health topics
+- **Privacy-Focused**: Local processing with no data storage
+- **Professional Design**: Clean, calming interface for mental health support
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.8 or higher
+- 8GB+ RAM recommended
+- 4GB+ disk space for model files
+
+### Installation
+
+1. **Clone or download this repository**
+   ```bash
+   git clone <your-repo-url>
+   cd mental-health-assistant
