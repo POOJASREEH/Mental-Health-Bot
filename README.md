@@ -1,14 +1,3 @@
----
-title: Mental Health Assistant
-emoji: 🧠
-colorFrom: purple
-colorTo: blue
-sdk: gradio
-sdk_version: 4.0.0
-app_file: app.py
-pinned: true
----
-
 # 🧠 Mental Health Support Assistant
 
 An AI-powered mental health companion that provides supportive listening and evidence-based information using BioMistral Medical AI and retrieval-augmented generation (RAG).
