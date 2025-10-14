@@ -1,3 +1,14 @@
-streamlit==1.50.0
-llama-cpp-python==0.3.16
-huggingface-hub==0.35.3
+gradio>=4.0.0
+langchain>=0.0.300
+langchain-community>=0.0.1
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+llama-cpp-python>=0.2.0
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+numpy>=1.21.0
+pypdf>=3.0.0
+python-dotenv>=1.0.0
+tiktoken>=0.4.0
+huggingface-hub>=0.16.0
