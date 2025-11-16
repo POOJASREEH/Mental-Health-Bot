@@ -1,4 +1,4 @@
-# 🧠 Mental Health Support Assistant
+# Mental Health Support Assistant
 
 An AI-powered mental health companion that provides supportive listening and evidence-based information using BioMistral Medical AI and retrieval-augmented generation (RAG).
 
@@ -6,7 +6,7 @@ An AI-powered mental health companion that provides supportive listening and evi
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)
 
-## 🌟 Features
+## Features
 
 - **Compassionate AI Conversations**: Evidence-based mental health information
 - **Emergency Resources**: Quick access to crisis helplines and support
@@ -14,7 +14,7 @@ An AI-powered mental health companion that provides supportive listening and evi
 - **Privacy-Focused**: Local processing with no data storage
 - **Professional Design**: Clean, calming interface for mental health support
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
