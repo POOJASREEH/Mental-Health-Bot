@@ -26,5 +26,5 @@ An AI-powered mental health companion that provides supportive listening and evi
 
 1. **Clone or download this repository**
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/POOJASREEH/Mental-Health-Bot.git>
    cd mental-health-assistant
